@@ -18,7 +18,8 @@ const anotherFunction  = () => {
 anotherFunction();
 
 const helloWorld = () =>{
-globalVar = "I am global";
+    //La variable globalVar es global puesto que no se le asigno ni var, let o const
+    globalVar = "I am global";
 }
 
 helloWorld()
